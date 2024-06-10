@@ -52,7 +52,7 @@ namespace Cronómetro.Models
         { 
             _isRunning= false;
             _timerCronometro.Stop();
-            _tiempo = DateTime.Today;
+            Tiempo = DateTime.Today;
         }
         public void Pause()
         {
